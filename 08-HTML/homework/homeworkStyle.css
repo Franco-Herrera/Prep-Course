@@ -1,0 +1,20 @@
+h1 {
+    color: lightcoral;
+}
+img{
+    width: 400px;
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: lightcoral;
+    margin: 40px;
+    padding: 50px;
+    border: 15px solid lightslategray;
+    border-radius: 10px;
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+
+}
