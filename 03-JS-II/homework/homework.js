@@ -188,8 +188,14 @@ function esVerdadero(valor){
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
-  //Escribe tu código aquí   
-  
+  //Escribe tu código aquí 
+  let tabladel6 = [] 
+  for (let i = 0 ; i >= 0 && i <= 10 ; i++){
+    tabladel6.push (i * 6)   ;
+  }
+  return tabladel6
+
+
 }
 
 function tieneTresDigitos(numero){
@@ -207,7 +213,19 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+  let a = numero ;
+  let i = 0
+
+  do{
+    a = a + 5;
+    i = i + 1 ;
+  }
+  while (i < 8){
+    return a ;
+  }
+
 }
+
 
 
 // No modificar nada debajo de esta línea
