@@ -221,7 +221,7 @@ function doWhile(numero) {
     i = i + 1 ;
   }
   while (i < 8){
-    return a ;
+    return  a ;
   }
 
 }
